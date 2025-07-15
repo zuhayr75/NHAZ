@@ -30,7 +30,7 @@ export default {
   },
   computed: {
     imageSrc() {
-      const baseUrl = 'https://localhost:7245';
+      const baseUrl = 'http://217.154.124.75:5270';
       return this.info.imagePath
         ? `${baseUrl}${this.info.imagePath}`
         : `${baseUrl}/images/flier.png`;
