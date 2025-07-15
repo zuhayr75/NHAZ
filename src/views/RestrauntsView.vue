@@ -57,7 +57,7 @@ export default {
       this.error = null
       try {
         const response = await axios.get(
-          'http://217.154.124.75:5270//api/CertifiedBusiness'
+          'http://217.154.124.75:5270/api/CertifiedBusiness'
         )
         this.businesses = response.data
 
